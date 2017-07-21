@@ -3,5 +3,5 @@
     - role: jnv.unattended-upgrades
       unattended_origins_patterns:
     - 'origin=Debian,a=stable,label=Debian-Security' # security updates
-      unattended_package_blacklist: [cowsay, vim]
-      unattended_mail: 'nya@yannicknya.fr'
+     unattended_package_blacklist: [cowsay, vim]
+     unattended_mail: 'nya@yannicknya.fr'
