@@ -1,6 +1,6 @@
 - hosts: all
   roles:
-  - role: jnv.unattended-upgrades
+    - role: jnv.unattended-upgrades
     unattended_origins_patterns:
     - 'origin=Debian,a=stable,label=Debian-Security' # security updates
     unattended_package_blacklist: [cowsay, vim]
